@@ -72,8 +72,22 @@ nav ul {
     color: #b1b2b6;
 }
 
+
+#logo-nav a:hover {
+    color: tomato;
+}
+
+/* #logo-nav:hover {
+    transform: scale(1.05);
+} */
+
+
 nav li a {
     color:#b1b2b6;
+}
+
+nav li a:hover {
+    color: #b1b2b6;
 }
 
 nav li{
@@ -274,6 +288,37 @@ nav li:hover, a:focus {
             padding-right: 20px;
             padding-bottom: 60px;
            }
+    }
+
+    footer{
+        background-color: black;
+        min-height: 50%;
+    }
+
+    footer h4 {
+        color: white;
+        font-family: sans-serif;
+        text-align: center;
+        font-size: 35px;
+        padding: 180px 120px 20px 120px
+    }
+
+    footer ul {
+        display: flex;
+        justify-content:space-around;
+        padding-left: 700px;
+        padding-right: 700px;
+    }
+
+    footer ul li {
+        text-decoration: none;
+        font-family: sans-serif;
+        font-size: 15px;
+    }
+
+    footer ul li a {
+        color: #b1b2b6;
+        text-decoration: none;
     }
 
    
